@@ -38,6 +38,7 @@ pip install opencv-python
 pip3 install opencv-python
 pip install opencv-contrib-python
 pip3 install opencv-contrib-python
+pip3 install --upgrade imutils
 deactivate
 wget https://github.com/opencv/opencv/tree/master/data/haarcascades/haarcascade_frontalface_default.xml
 
@@ -63,3 +64,4 @@ echo "If installation is successful, you'll need to restart to get the camera wo
 echo "Upon reboot, run the following to verify the camera works: "
 echo ""
 echo "sudo raspistill -e png -n -o /home/pi/Pictures/activation_test.png"
+
